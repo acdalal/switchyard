@@ -13,7 +13,7 @@ Consider the picture below.  Say that Switch 1 doesn't know the locations of any
 
 .. image:: ls_diagram.png
 
-The following flowchart summarizes the example described above.  The only additional considerations shown in the flowchart are if the destination address is the same as one of the Ethernet addresses on the switch itself (i.e., the frame is intended for the switch), or the Ethernet destination address is the broadcast address (``FF:FF:FF:FF:FF:FF``). **TODO: Flowchart does not contain "add entry to forwarding table"; add this***
+The following flowchart summarizes the example described above.  The only additional considerations shown in the flowchart are if the destination address is the same as one of the Ethernet addresses on the switch itself (i.e., the frame is intended for the switch), or the Ethernet destination address is the broadcast address (``FF:FF:FF:FF:FF:FF``). 
 
 .. image:: ls_flowchart.png
   
